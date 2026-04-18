@@ -5,6 +5,8 @@ This project represents the design, development, and deployment of a high-perfor
 
 Unlike theoretical academic projects, this system required full-stack engineering integration—combining mechanical design, power electronics, embedded control, and real-time debugging under constraints. The final bot reflects iterative design improvements, practical trade-offs, and extensive troubleshooting.
 
+Repository Structure
+Rudra/ │ ├── Firmware/ │ ├── tx/ # Transmitter firmware │ ├── rx/ # Receiver firmware │ └── shared/ # Common communication structures │ ├── Electronics/ │ ├── Schematic/ # Circuit schematics (KiCad/PDF) │ ├── PCB/ # PCB design files │ └── BOM/ # Bill of Materials │ ├── Documentation/ # System-level documentation │ ├── Scripts/ │ └── Controller_Script/ # Python-based controller interface (pygame + serial) │ ├── README.md
 System Architecture
 
 The RC bot can be broadly divided into four major subsystems:
